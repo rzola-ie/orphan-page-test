@@ -130,7 +130,7 @@
             activateSim() {
                 this.showIframe = true
                 this.iFrame = document.createElement('iframe')
-                this.iFrame.src = 'https://storage.googleapis.com/horizon-simulator-bucket/index.html'
+                this.iFrame.src = 'https://storage.googleapis.com/horizon-simulator-bucket/index.html?GTMID=GTM-W9MTCQG-TEST'
                 this.iFrame.classList.add('iframe')
                 this.iFrame.style.position = 'fixed'
                 this.iFrame.style.inset = '0'
